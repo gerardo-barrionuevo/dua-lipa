@@ -44,7 +44,7 @@ body {
 
 .logo {
     padding-top: 20px;
-    height: 150px;
+    height: 250px;
 }
 
 
@@ -260,5 +260,17 @@ body {
 
     .footer {
         height: 100px;
+    } 
+
+    .logo {
+        padding-top: 20px;
+        height: 150px;
+    }
+}
+
+@media all and (max-width:320px){
+    .logo {
+        padding-top: 20px;
+        height: 80px;
     }
 }

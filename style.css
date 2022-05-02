@@ -19,27 +19,16 @@ body {
 
 }
 
-
-.header__menu li {
-    display: inline-block;
-    padding: 30px;
-    text-align: center;
-    font-size: 32px;
-    list-style: none;
-    
-}
-
-.header__menu li a {
+.nav li a {
+    font-size:xx-large;
     text-decoration: none;
     text-transform: uppercase;
     color: #f1e87d;
     font-family: Impact;
 }
 
-.header__menu li:hover{
-    transform: scale(1);
-    
-    text-shadow:2px 2px black, 3px 3px #f1e87d;
+.nav li:hover{
+    transform: scale(1.2);
 }
 
 .logo {
@@ -266,8 +255,10 @@ body {
         padding-top: 20px;
         height: 150px;
     }
+    .nav li a {
+        font-size:x-large;
 }
-
+}
 @media all and (max-width:320px){
     .logo {
         padding-top: 20px;

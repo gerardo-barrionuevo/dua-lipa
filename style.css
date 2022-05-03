@@ -65,7 +65,7 @@
 
 /* Dates */
 
-#dates {
+.dates {
     font-family: Impact;
     background-color: black;
     border-collapse: collapse;
@@ -73,7 +73,7 @@
 
 }
 
-#dates td {
+.dates td {
     font-size: 24px;
     padding-top: 35px;
     padding-bottom: 35px;
@@ -81,18 +81,16 @@
     color: rgb(192, 192, 192);
 }
 
-#dates th {
+.dates th {
 
     font-family: 'Arial Narrow Bold', sans-serif;
     text-transform: uppercase;
     font-size: 18px;
     padding: 15px;
-    color: black;
     text-align: left;
-    background-color: v;
-
-
-}
+    color: black;
+    background-color: #f1e87d;
+  }
 
 #dates tr:hover {
     color: #f1e87d;
@@ -111,14 +109,16 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 20px;
     justify-items: center;
     align-items: center;
+    
+    
 }
 
 .bio1 {
     grid-area: 1 / 1 / 2 / 3;
     width: 100%;
+
 }
 
 .bio2 {
@@ -127,14 +127,17 @@
 
 .bio3 {
     grid-area: 2 / 2 / 3 / 3;
+    
 }
 
 .bio4 {
     grid-area: 3 / 1 / 4 / 2;
+    
 }
 
 .bio5 {
     grid-area: 3 / 2 / 4 / 3;
+    padding-bottom: 5%;
 }
 
 .bio_image {
@@ -163,6 +166,7 @@
 .footer {
     background-color: rgb(0, 0, 0);
     color: white;
+    
 }
 
 .social {
@@ -233,7 +237,7 @@
 
 
     .footer {
-        height: 100px;
+        height: 120px;
     } 
 
     .logo {

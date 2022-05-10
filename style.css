@@ -16,14 +16,14 @@
 }
 
 .nav li a {
-    font-size:xx-large;
+    font-size: xx-large;
     text-decoration: none;
     text-transform: uppercase;
     color: #f1e87d;
     font-family: Impact;
 }
 
-.nav li:hover{
+.nav li:hover {
     transform: scale(1.2);
 }
 
@@ -90,7 +90,7 @@
     text-align: left;
     color: black;
     background-color: #f1e87d;
-  }
+}
 
 #dates tr:hover {
     color: #f1e87d;
@@ -111,8 +111,8 @@
     grid-template-rows: repeat(2, 1fr);
     justify-items: center;
     align-items: center;
-    
-    
+
+
 }
 
 .bio1 {
@@ -127,12 +127,12 @@
 
 .bio3 {
     grid-area: 2 / 2 / 3 / 3;
-    
+
 }
 
 .bio4 {
     grid-area: 3 / 1 / 4 / 2;
-    
+
 }
 
 .bio5 {
@@ -157,8 +157,14 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    height: 300px;
-    padding: 50px;
+}
+
+.iframeMusic {
+    border-radius: 30px;
+    width: 450px;
+    height: 350px;
+    padding: 25px;
+
 }
 
 /* Footer */
@@ -166,7 +172,7 @@
 .footer {
     background-color: rgb(0, 0, 0);
     color: white;
-    
+
 }
 
 .social {
@@ -182,12 +188,12 @@
     .cards__item {
         padding: 30px;
     }
-    
+
 
     .bio_content {
         grid-template-columns: 1fr;
         grid-template-rows: 2fr;
-        
+
     }
 
     .bio1 {
@@ -238,17 +244,30 @@
 
     .footer {
         height: 120px;
-    } 
+    }
 
     .logo {
         padding-top: 20px;
         height: 150px;
     }
+
     .nav li a {
-        font-size:x-large;
+        font-size: x-large;
+    }
+
+    .music {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .iframeMusic {
+        border-radius: 30px;
+        width: auto;
+        padding: 15px;
+    }
 }
-}
-@media all and (max-width:320px){
+
+@media all and (max-width:320px) {
     .logo {
         padding-top: 20px;
         height: 80px;

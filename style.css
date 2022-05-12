@@ -3,11 +3,7 @@
     padding: 0;
 }
 
-body {
-    position: relative;
-    min-height: 100vh;
-    padding-bottom: 80px;
-}
+
 
 .header {
     display: flex;
@@ -19,38 +15,24 @@ body {
 
 }
 
-
-.header__menu li {
-    display: inline-block;
-    padding: 30px;
-    text-align: center;
-    font-size: 32px;
-    list-style: none;
-    
-}
-
-.header__menu li a {
+.nav li a {
+    font-size: xx-large;
     text-decoration: none;
     text-transform: uppercase;
     color: #f1e87d;
     font-family: Impact;
 }
 
-.header__menu li:hover{
-    transform: scale(1);
-    
-    text-shadow:2px 2px black, 3px 3px #f1e87d;
+.nav li:hover {
+    transform: scale(1.2);
 }
 
 .logo {
     padding-top: 20px;
-    height: 150px;
+    height: 250px;
 }
 
-.banner {
-    width: 100%;
 
-}
 
 .cards {
     display: grid;
@@ -83,7 +65,7 @@ body {
 
 /* Dates */
 
-#dates {
+.dates {
     font-family: Impact;
     background-color: black;
     border-collapse: collapse;
@@ -91,7 +73,7 @@ body {
 
 }
 
-#dates td {
+.dates td {
     font-size: 24px;
     padding-top: 35px;
     padding-bottom: 35px;
@@ -99,17 +81,15 @@ body {
     color: rgb(192, 192, 192);
 }
 
-#dates th {
+.dates th {
 
     font-family: 'Arial Narrow Bold', sans-serif;
     text-transform: uppercase;
     font-size: 18px;
     padding: 15px;
-    color: black;
     text-align: left;
-    background-color: v;
-
-
+    color: black;
+    background-color: #f1e87d;
 }
 
 #dates tr:hover {
@@ -129,14 +109,16 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 20px;
     justify-items: center;
     align-items: center;
+
+
 }
 
 .bio1 {
     grid-area: 1 / 1 / 2 / 3;
     width: 100%;
+
 }
 
 .bio2 {
@@ -145,14 +127,17 @@ body {
 
 .bio3 {
     grid-area: 2 / 2 / 3 / 3;
+
 }
 
 .bio4 {
     grid-area: 3 / 1 / 4 / 2;
+
 }
 
 .bio5 {
     grid-area: 3 / 2 / 4 / 3;
+    padding-bottom: 5%;
 }
 
 .bio_image {
@@ -172,26 +157,22 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    height: 300px;
-    padding: 50px;
+}
+
+.iframeMusic {
+    border-radius: 30px;
+    width: 450px;
+    height: 350px;
+    padding: 25px;
+
 }
 
 /* Footer */
 
 .footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 80px;
     background-color: rgb(0, 0, 0);
     color: white;
-    text-align: center;
 
-}
-
-.footer_social li {
-    display: inline-block;
-    padding: 10px;
 }
 
 .social {
@@ -207,12 +188,12 @@ body {
     .cards__item {
         padding: 30px;
     }
-    
+
 
     .bio_content {
         grid-template-columns: 1fr;
         grid-template-rows: 2fr;
-        
+
     }
 
     .bio1 {
@@ -262,6 +243,33 @@ body {
 
 
     .footer {
-        height: 100px;
+        height: 120px;
+    }
+
+    .logo {
+        padding-top: 20px;
+        height: 150px;
+    }
+
+    .nav li a {
+        font-size: x-large;
+    }
+
+    .music {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .iframeMusic {
+        border-radius: 30px;
+        width: auto;
+        padding: 15px;
+    }
+}
+
+@media all and (max-width:320px) {
+    .logo {
+        padding-top: 20px;
+        height: 80px;
     }
 }

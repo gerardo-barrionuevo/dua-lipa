@@ -1,0 +1,27 @@
+header {
+  display: flex;
+  direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: black; }
+  header .logo {
+    padding-top: 20px;
+    height: 250px; }
+  header .nav a {
+    font-size: 32px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #f1e87d;
+    font-family: Impact; }
+    header .nav a:hover {
+      transform: scale(1.2); }
+  @media all and (max-width: 770px) {
+    header .logo {
+      padding-top: 20px;
+      height: 150px; }
+    header .nav a {
+      font-size: map-get 24px; } }
+  @media all and (max-width: 320px) {
+    header .logo {
+      padding-top: 20px;
+      height: 80px; } }

@@ -1,0 +1,16 @@
+.footer {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    .social {
+        height: 30px;
+    }
+
+}
+
+@media all and (max-width:770px){
+    .footer {
+        height: 120px;
+    } 
+}
+
+

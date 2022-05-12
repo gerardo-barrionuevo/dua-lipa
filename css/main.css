@@ -1,6 +1,16 @@
+.footer {
+  background-color: black;
+  color: white; }
+  .footer .social {
+    height: 30px; }
+
+@media all and (max-width: 770px) {
+  .footer {
+    height: 120px; } }
+
 header {
   display: flex;
-  direction: column;
+  flex-direction: column;
   align-items: center;
   width: 100%;
   background-color: black; }

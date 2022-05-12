@@ -9,7 +9,7 @@ $tamanio-tipografia:(
 
 @mixin flexbox ($direction, $align){
     display: flex;
-    direction: $direction;
+    flex-direction: $direction;
     align-items: $align;
 
 }

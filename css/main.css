@@ -63,8 +63,8 @@ header {
     width: auto;
     padding: 15px; } }
 
-.bio_image {
-  width: 100%; }
+.bodyBio {
+  background-color: black; }
 
 .bio_content {
   display: grid;

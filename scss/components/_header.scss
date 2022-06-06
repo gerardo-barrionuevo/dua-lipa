@@ -2,14 +2,14 @@ header {
     @include flexbox(column, center);
 
     width: 100%;
-    background-color: black;
+    background-color: $colorSecundario;
 
     .logo {
         padding-top: 20px;
         height: 250px;
     }
 
-    .nav a{
+    .nav a {
         font-size: map-get($tamanio-tipografia , maxititulo);
         text-decoration: none;
         text-transform: uppercase;
@@ -26,16 +26,17 @@ header {
             padding-top: 20px;
             height: 150px;
         }
+
         .nav a {
             font-size: map-get map-get($tamanio-tipografia , titulo);
         }
-    
+
     }
+
     @media all and (max-width:320px) {
         .logo {
             padding-top: 20px;
             height: 80px;
         }
+    }
 }
-}
-

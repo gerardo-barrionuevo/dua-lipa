@@ -1,13 +1,15 @@
 $colorPrincipal: #ffc107;
+$colorSecundario: rgb(0, 0, 0);
 
-$tamanio-tipografia:(
+
+$tamanio-tipografia: (
     maxititulo: 32px,
     titulo: 24px,
     subtitulo: 20px,
     parrafo: 16px
 );
 
-@mixin flexbox ($direction, $align){
+@mixin flexbox ($direction, $align) {
     display: flex;
     flex-direction: $direction;
     align-items: $align;

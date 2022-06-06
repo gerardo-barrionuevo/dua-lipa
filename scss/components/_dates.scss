@@ -1,6 +1,6 @@
 .dates {
     font-family: Impact;
-    background-color: black;
+    background-color: $colorSecundario;
     border-collapse: collapse;
     width: 100%;
 
@@ -18,10 +18,9 @@
         font-size: 18px;
         padding: 15px;
         text-align: left;
-        color: black;
+        color: $colorSecundario;
         background-color: $colorPrincipal;
 
     }
 
 }
-

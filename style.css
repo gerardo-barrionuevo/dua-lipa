@@ -178,9 +178,3 @@
     }
 }
 
-@media all and (max-width:320px) {
-    .logo {
-        padding-top: 20px;
-        height: 80px;
-    }
-}

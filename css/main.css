@@ -123,3 +123,23 @@ header {
     color: #f1e87d;
     padding: 30px;
     margin: 30px; } }
+
+.dates {
+  font-family: Impact;
+  background-color: black;
+  border-collapse: collapse;
+  width: 100%; }
+  .dates td {
+    font-size: 24px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 15px;
+    color: silver; }
+  .dates th {
+    font-family: 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 15px;
+    text-align: left;
+    color: black;
+    background-color: #ffc107; }

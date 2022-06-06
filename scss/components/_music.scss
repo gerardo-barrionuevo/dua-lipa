@@ -11,3 +11,30 @@
     padding: 25px;
 
 }
+@media all and (max-width:770px) {
+   
+
+    .footer {
+        height: 120px;
+    }
+
+    .logo {
+        padding-top: 20px;
+        height: 150px;
+    }
+
+    .nav li a {
+        font-size: x-large;
+    }
+
+    .music {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .iframeMusic {
+        border-radius: 30px;
+        width: auto;
+        padding: 15px;
+    }
+}
